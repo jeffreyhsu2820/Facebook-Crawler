@@ -5,7 +5,7 @@ Find all the public information of all target users with the same name on FB.
 2. final_version_identification  
 Identify the target customers in the list from the first part. 
 
-## The following are needed:  
+## Followings are needed:  
 1. Drivers:  
 Chrome driver: http://chromedriver.chromium.org/downloads  
 Firefox: https://github.com/mozilla/geckodriver/releases  
