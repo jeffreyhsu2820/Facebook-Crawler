@@ -1,28 +1,28 @@
-½Ğ¨Ï¥Îpython jupyter notebook¶}±Ò(python 3.6)
+python jupyter notebook(python 3.6)
 
 
-®M¥ó
+å¥—ä»¶
 selenium, time, urllib, json, os, random, csv, codecs
-½Ğ½T»{¥H¤W®M¥ó¥H¤U¸ü
+è«‹ç¢ºèªä»¥ä¸Šå¥—ä»¶ä»¥ä¸‹è¼‰
 
 Drivers
 Chrome   http://chromedriver.chromium.org/downloads
 Firefox  https://github.com/mozilla/geckodriver/releases
-Edge(µ{¦¡¤¤¨ÃµL¨Ï¥Î)     https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-¤U¸ü¥H¤W¤T­ÓDRIVER
+Edge(ç¨‹å¼ä¸­ä¸¦ç„¡ä½¿ç”¨)     https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+ä¸‹è¼‰ä»¥ä¸Šä¸‰å€‹DRIVER
 
 
 
 1. final_version_crawler
-¥D­n­t³d¬d§ä©Ò¦³¥Ø¼Ğ¦bfb¤W¦P¦W¥Î¤áªº©Ò¦³¤½¶}¸ê°T
-EDGEDRIVER_PATH, FIREFOXDRIVER_PATH, CHROMEDRIVER_PATH ½Ğµ¥©ó¤W­±©Ò»İ¤U¸üªº®M¥óªº¦ì¸m
-FIREFOX_PATH, CHROME_PATH ½Ğµ¥©ó¤º³¡ÂsÄı¾¹©Ò¦s©ñªº¦ì¸m
+ä¸»è¦è² è²¬æŸ¥æ‰¾æ‰€æœ‰ç›®æ¨™åœ¨fbä¸ŠåŒåç”¨æˆ¶çš„æ‰€æœ‰å…¬é–‹è³‡è¨Š
+EDGEDRIVER_PATH, FIREFOXDRIVER_PATH, CHROMEDRIVER_PATH è«‹ç­‰æ–¼ä¸Šé¢æ‰€éœ€ä¸‹è¼‰çš„å¥—ä»¶çš„ä½ç½®
+FIREFOX_PATH, CHROME_PATH è«‹ç­‰æ–¼å…§éƒ¨ç€è¦½å™¨æ‰€å­˜æ”¾çš„ä½ç½®
 
-©Ò»İ¸ê®Æ¡Ğ
-¨Ò¦p:
-target=["§d«TÀM","§d«T¾ì","¶À¬î±Ó","¶À¬î¦Ì","§d«T¿Ä"]
+æ‰€éœ€è³‡æ–™ï¼
+ä¾‹å¦‚:
+target=["å³ä¿Šéœ–","å³ä¿Šæ¨º","é»ƒç§‹æ•","é»ƒç§‹ç±³","å³ä¿Šè"]
 
-#·Q­n¥ÎªºÂsÄı¾¹¤Î½ü´«ªº±b¸¹(¥Ø«e³]©w¥|²Õ)
+#æƒ³è¦ç”¨çš„ç€è¦½å™¨åŠè¼ªæ›çš„å¸³è™Ÿ(ç›®å‰è¨­å®šå››çµ„)
 browser="Chrome"
 email0="123456@gmail.com"
 password0="123"
@@ -36,15 +36,15 @@ password3="123"
 
 
 2. final_version_identification
-°õ¦æ«e¡A½Ğ½T»{²Ä¤@¤äfinal_version_crawler¤w°õ¦æ§¹²¦¡A¨Ã¥BÀò±o¤j³¡¤À¸ê°T
-¦¹¤äµ{¦¡¡A¬°¥Î¨Ó¿ë»{¤@°ï¦P¦W¦Cªí¤¤½Ö¬O§Ú·Q­nªº¥Ø¼Ğ¡A¨Ã¥B§ä¨ì»P¥Ø¼Ğ¦³ÃöÁpªº¦Cªí
-¦Cªí¤¤¤]·|¥]§t¿ë»{¥Xªº¥Ø¼Ğ
+åŸ·è¡Œå‰ï¼Œè«‹ç¢ºèªç¬¬ä¸€æ”¯final_version_crawlerå·²åŸ·è¡Œå®Œç•¢ï¼Œä¸¦ä¸”ç²å¾—å¤§éƒ¨åˆ†è³‡è¨Š
+æ­¤æ”¯ç¨‹å¼ï¼Œç‚ºç”¨ä¾†è¾¨èªä¸€å †åŒååˆ—è¡¨ä¸­èª°æ˜¯æˆ‘æƒ³è¦çš„ç›®æ¨™ï¼Œä¸¦ä¸”æ‰¾åˆ°èˆ‡ç›®æ¨™æœ‰é—œè¯çš„åˆ—è¡¨
+åˆ—è¡¨ä¸­ä¹ŸæœƒåŒ…å«è¾¨èªå‡ºçš„ç›®æ¨™
 
-©Ò»İ¸ê®Æ¡Ğ
-¨Ò¦p:
-target=["§d«TÀM","§d«T¾ì","¶À¬î±Ó","¶À¬î¦Ì","§d«T¿Ä"]   (©Ò­n·j´Mªº¥Ø¼Ğ)
+æ‰€éœ€è³‡æ–™ï¼
+ä¾‹å¦‚:
+target=["å³ä¿Šéœ–","å³ä¿Šæ¨º","é»ƒç§‹æ•","é»ƒç§‹ç±³","å³ä¿Šè"]   (æ‰€è¦æœå°‹çš„ç›®æ¨™)
 
-#·Q­n¥ÎªºÂsÄı¾¹¤Î½ü´«ªº±b¸¹(¥Ø«e³]©w4²Õ--½T»{4²Õ±b¸¹§¡¬°fbªº±b¸¹±K½X)
+#æƒ³è¦ç”¨çš„ç€è¦½å™¨åŠè¼ªæ›çš„å¸³è™Ÿ(ç›®å‰è¨­å®š4çµ„--ç¢ºèª4çµ„å¸³è™Ÿå‡ç‚ºfbçš„å¸³è™Ÿå¯†ç¢¼)
 browser="Chrome"
 email0="123456@gmail.com"
 password0="123"
@@ -55,10 +55,6 @@ password2="123"
 email3="123@gmail.com"
 password3="123"
 
-¶×¤J·Q­n·j´M¨C¦ì¥Ø¼Ğªº¸ê®Æ--§Î¦¡¦p¤U:
+åŒ¯å…¥æƒ³è¦æœå°‹æ¯ä½ç›®æ¨™çš„è³‡æ–™--å½¢å¼å¦‚ä¸‹:
 identifier(filename, ocr_addr, ocr_brdy_phone, work_comp_job_name, comn(target))
-->identifier("§d«T¾ì", ["ªá½¬", "¦N¦w"], ["1981¦~12¤ë28¤é", "12¤ë28¤é", "0932651189"], ["¶}¨®","¶}±ÏÅ@¨®"], comn(target))
-
-
-
-­Y¥H¤W©Ò»İ¸ê°T¦³¥ô¦ó¯Ê¥¢¤Î°İÃD¡A½Ğ§iª¾jeffrey2820@gmail.com¡A·PÁÂ
+->identifier("å³ä¿Šæ¨º", ["èŠ±è“®", "å‰å®‰"], ["1981å¹´12æœˆ28æ—¥", "12æœˆ28æ—¥", "0932651189"], ["é–‹è»Š","é–‹æ•‘è­·è»Š"], comn(target))
