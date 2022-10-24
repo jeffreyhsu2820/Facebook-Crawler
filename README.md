@@ -1,4 +1,4 @@
-# Facebook Crawler  
+# Facebook Crawler--Selenium    
 It's coded for identifying people through the information revealed on FB. This code consists of two parts:  
 1. final_version_crawler  
 Find all the public information of all target users with the same name on FB.  
